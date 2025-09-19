@@ -92,13 +92,20 @@ export function Registration() {
             </Card>
             
             <div className="text-center">
-              <Button 
-                size="lg" 
+                <Button
+                asChild
+                size="lg"
                 className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 w-full sm:w-auto dark:from-blue-500 dark:to-purple-500 dark:hover:from-blue-600 dark:hover:to-purple-600"
-              >
-                <ExternalLink className="w-5 h-5 mr-2" />
-                Register Now! 🚀
-              </Button>
+                >
+                <a
+                  href="https://forms.gle/LSz44v7JX4t7BiG86"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="w-5 h-5 mr-2" />
+                  Register Now! 🚀
+                </a>
+                </Button>
               <p className="text-sm text-muted-foreground mt-3">
                 Click to open Google Form registration
               </p>

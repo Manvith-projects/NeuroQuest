@@ -4,19 +4,7 @@ import { Badge } from './ui/badge';
 
 export function Rounds() {
   const rounds = [
-    {
-      icon: FileSearch,
-      title: "Screening Round",
-      description: "Initial written test covering all four domains",
-      details: [
-        "📝 Written assessment format",
-        "🕒 Time-bound questions",
-        "🎯 Qualifying round for next stages",
-        "📊 Mixed difficulty levels"
-      ],
-      color: "blue",
-      emoji: "📋"
-    },
+  
     {
       icon: Eye,
       title: "Visual/Logo Round",
@@ -29,6 +17,19 @@ export function Rounds() {
       ],
       color: "purple",
       emoji: "👀"
+    },
+    {
+      icon: FileSearch,
+      title: "Screening Round",
+      description: "Initial written test covering all four domains",
+      details: [
+        "📝 Written assessment format",
+        "🕒 Time-bound questions",
+        "🎯 Qualifying round for next stages",
+        "📊 Mixed difficulty levels"
+      ],
+      color: "blue",
+      emoji: "📋"
     },
     {
       icon: Zap,

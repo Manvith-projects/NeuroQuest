@@ -58,8 +58,18 @@ export function Hero() {
           </div>
         </div>
         
-        <Button size="lg" className="text-lg px-8 py-6 bg-white text-blue-900 hover:bg-white/90 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700 rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-          Join the Quest 🚀
+        <Button
+          size="lg"
+          className="text-lg px-8 py-6 bg-white text-blue-900 hover:bg-white/90 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700 rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+          asChild
+        >
+          <a
+            href="https://forms.gle/LSz44v7JX4t7BiG86"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join the Quest 🚀
+          </a>
         </Button>
       </div>
     </section>
